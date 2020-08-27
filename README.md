@@ -1,32 +1,32 @@
-# Android-code-general
+## Android-code-general
 
-## 1. HideOnScrollExample
+### 1. HideOnScrollExample
 
 https://github.com/mzgreen/HideOnScrollExample
 
-## 2: fix build errors (lint-gradle-api.jar)
+### 2: fix build errors (lint-gradle-api.jar)
 
 ```sh
 mover jcenter() below google()
 ```
-## 3: Guide Android networking:
+### 3: Guide Android networking:
 https://github.com/codepath/android_guides/wiki/Networking-with-the-Fast-Android-Networking-Library
 
-## 4: Multi slider:
+### 4: Multi slider:
 https://github.com/Jay-Goo/RangeSeekBar
 
-## 5: Top 15 seekbar, timline
+### 5: Top 15 seekbar, timline
 https://uxplanet.org/top-15-seekbar-and-slider-github-ui-libraries-and-components-java-swift-kotlin-d0f6a9658be3
 
 
-## 6: Custom spinner item (icon and text):
+### 6: Custom spinner item (icon and text):
 - https://abhiandroid.com/ui/custom-spinner-examples.html
 - https://stackoverflow.com/questions/38796775/add-image-to-item-spinner
 
-## 7: Loadmore RecycleView
+### 7: Loadmore RecycleView
 - https://github.com/codepath/android_guides/wiki/Endless-Scrolling-with-AdapterViews-and-RecyclerView
 
-## 8: get hash key by code:
+### 8: get hash key by code:
 - debug
 ```java
 PackageInfo info;
@@ -57,6 +57,9 @@ I have also experience an issue like by using the above HashKey the login works 
 4. Copy the SHA1 in hex format and convert it in to base64 format, you can use this link (http://tomeko.net/online_tools/hex_to_base64.php) do that without the SHA1: part of the hex. 
 5. Go to Facebook developer console and add the key(after convert to base 64) in the settings —> basic –> key hashes.
 
-## 9. How to create vector drawables for android?
+### 9. How to create vector drawables for android?
 - https://stackoverflow.com/a/40398230/10819917
+
+### 10. BottomSheet-GridView-with-Query
+- https://github.com/naimur978/BottomSheet-GridView-with-Query
 
